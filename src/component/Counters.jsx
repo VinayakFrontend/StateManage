@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './Counters.css'
+import Footer from './Footer.jsx'
 
 export default function Counters() {
     const [count, setCount] = useState(0);
