@@ -35,7 +35,8 @@ export default function Counters() {
                 <button  className="inc" onClick={Increment}>+</button>
                
             </div>
-             <Footer counter={count} />
+            <Footer counter={count} />
+           
         </>
     )
 }
